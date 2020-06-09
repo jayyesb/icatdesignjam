@@ -100,6 +100,16 @@ a.navbar-brand img{
 	height:40px;
 }
 
+.navbar ul{
+	text-align:right;
+}
+
+.navbar span{
+	color:#fff;
+	font-size:30px;
+	line-height:45px;
+}
+
 
 #intro {
   position: absolute;

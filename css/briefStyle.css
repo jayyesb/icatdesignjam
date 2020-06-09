@@ -87,11 +87,11 @@ body {
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,1);
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: rgba(255,255,255,1);
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
@@ -104,6 +104,15 @@ a.navbar-brand img{
 	height:40px;
 }
 
+.navbar ul{
+	//text-align:right;
+}
+
+.navbar span{
+	color:#fff;
+	font-size:30px;
+	line-height:45px;
+}
 
 #intro {
   position: absolute;
@@ -205,7 +214,7 @@ div.bottom{
 h6{
 	width:100%;
 	text-align:right;
-	font-size:12px;
+	font-size:8px;
 }
 
 
@@ -213,6 +222,19 @@ h6{
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 70px;
+  }
+  
+  h2{
+	  font-size: 30px;
+  }
+  
+  h3{
+	  font-size: 20px;
+  }
+  
+  p,#intro ul{
+	  font-size: 15px;
+	  left:5%;
   }
 }
 
@@ -222,6 +244,19 @@ h6{
   }
   h1::after {
     height: 8px;
+  }
+  
+  h2{
+	  font-size: 20px;
+  }
+  
+  h3{
+	  font-size: 16px;
+  }
+  
+  p,#intro ul{
+	  font-size: 12px;
+	  left:4%;
   }
 }
 
@@ -241,6 +276,23 @@ h6{
   .btn {
     font-size: 16px;
   }
+  
+  h2{
+	  font-size: 20px;
+  }
+  
+  h3{
+	  font-size: 16px;
+  }
+  
+  p,#intro ul{
+	  font-size: 12px;
+	  left:3%;
+  }
+  
+  h6{
+	font-size:4px;
+}
 }
 
 @media only screen and (max-width: 320px) {
@@ -249,5 +301,18 @@ h6{
   }
   h1::after {
     height: 4px;
+  }
+  
+  h2{
+	  font-size: 20px;
+  }
+  
+  h3{
+	  font-size: 16px;
+  }
+  
+  p,#intro ul{
+	  font-size: 12px;
+	  left:3%;
   }
 }
